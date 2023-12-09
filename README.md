@@ -1,4 +1,4 @@
-# Praktikum Big Data Analisa Ekonometrika Kelompok 4
+# Praktikum Big Data Analisa Ekonometrika Kelompok 2
 
 Anggota kelompok
 - 21002101005 Viviana Ayu Lestari
