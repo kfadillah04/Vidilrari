@@ -18,7 +18,7 @@ st.write("""
 
 st.write("Dosen Pengampu: Sri Yani K dan Anung Ariwibowo")
 
-df = pd.read_csv('DataHappiness/2015.csv , 2016.csv , 2017.csv , 2018.csv , 2019.csv', sep = ',')
+df = pd.read_csv('DataHappiness/2015.csv', sep = ',')
 
 st.write("# Happiness Rank")
 
