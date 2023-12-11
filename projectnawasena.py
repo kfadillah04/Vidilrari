@@ -32,7 +32,7 @@ tahun = st.selectbox(
     options = df2015["year"].unique() )
 
 df3 = df.query(
-     'year == @tahun" )
+     'year' == tahun )
 
 attributes = st.multiselect(
     "Pilih country:",
