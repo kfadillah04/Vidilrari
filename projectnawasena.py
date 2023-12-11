@@ -37,6 +37,7 @@ df3 = df.query(
 attributes = st.multiselect(
     "Pilih country:",
     options = ['Country']
+)
 
 plot_bar = px.bar(df3,
                     x = df["country"]. unique(),
