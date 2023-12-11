@@ -21,6 +21,15 @@ st.write("Dosen Pengampu: Sri Yani K dan Anung Ariwibowo")
 df = pd.read_csv('DataHappiness/2015.csv', sep =',')
 #df = pd.read_csv('DataHappiness/2015.csv')
 
+df = pd.read_csv('DataHappiness/2016.csv', sep =',')
+
+
+df = pd.read_csv('DataHappiness/2017.csv', sep =',')
+
+df = pd.read_csv('DataHappiness/2018.csv', sep =',')
+
+df = pd.read_csv('DataHappiness/2019.csv', sep =',')
+
 st.write("# Happiness Rank")
 
 tahun = st.selectbox(
