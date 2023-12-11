@@ -18,8 +18,12 @@ st.write("""
 
 st.write("Dosen Pengampu: Sri Yani K dan Anung Ariwibowo")
 
-df = pd.read_csv('DataHappiness/2015.csv', sep =',')
+df2015 = pd.read_csv('DataHappiness/2015.csv', sep =',')
 #df = pd.read_csv('DataHappiness/2015.csv')
+df2016 = pd.read_csv('DataHappiness/2016.csv', sep =',')
+df2017 = pd.read_csv('DataHappiness/2017.csv', sep =',')
+df2018 = pd.read_csv('DataHappiness/2018.csv', sep =',')
+df2019 = pd.read_csv('DataHappiness/2019.csv', sep =',')
 
 st.write("# Happiness Rank")
 
