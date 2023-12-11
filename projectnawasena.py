@@ -28,8 +28,8 @@ df2019 = pd.read_csv('DataHappiness/2019.csv', sep =',')
 st.write("# Happiness Rank")
 
 tahun = st.selectbox(
-    "Pilih Tahun"'
-    Options = df["year"].unique() )
+    "Pilih Tahun",
+    options = df2015["year"].unique() )
 
 df3 = df.query(
      'year == @tahun" )
